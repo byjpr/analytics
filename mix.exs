@@ -91,7 +91,8 @@ defmodule Plausible.MixProject do
       {:geolix, "~> 1.0"},
       {:clickhouse_ecto, git: "https://github.com/plausible/clickhouse_ecto.git"},
       {:geolix_adapter_mmdb2, "~> 0.5.0"},
-      {:logflare_logger_backend, "~> 0.7.6"}
+      {:logflare_logger_backend, "~> 0.7.6"},
+      {:mix_test_watch, "~> 1.0", only: :dev, runtime: false}
     ]
   end
 
